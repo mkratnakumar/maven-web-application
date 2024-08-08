@@ -13,7 +13,7 @@
     - name: Build Docker Image
       command: docker build -t webapplication .
       args:
-        chdir: /var/lib/jenkins/workspace/webapplication/
+        chdir: /var/lib/jenkins/workspace/webapplication
 
     - name: tag image
       command: docker tag webapplication:latest ratnakumar/webapplication:latest 
@@ -27,4 +27,4 @@
       command: docker push ratnakumar/webapplication:latest
  
     - name: Run container
-      command: docker run -d --name petstor2 --restart=always -p 8082:8080 ratnakumar/webapplication:latest
+      command: docker run -d --name webapplication --restart=always -p 8082:8080 ratnakumar/webapplication:latest
