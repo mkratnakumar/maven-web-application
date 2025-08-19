@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexusRepo</id>
 	      <name>Aws and DevOps Traning Releases Nexus Repository</name>
-	      <url>http://192.168.1.17:8081/repository/Boadapp-release/</url>
+	      <url>http://192.168.0.103:8081/repository/Boadapp-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexusRepo</id>
 	      <name>AWS and DevOps Traning </name>
-	      <url>http://192.168.1.17:8081/repository/Boadapp-snapshot/</url>
+	      <url>http://192.168.0.103:8081/repository/Boadapp-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
