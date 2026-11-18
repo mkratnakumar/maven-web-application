@@ -75,15 +75,15 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexusRepo</id>
+	      <id>nexusrepo</id>
 	      <name>Aws and DevOps Training Releases Nexus Repository</name>
-	      <url>http://192.168.1.6:8081/repository/web-release/</url>
+	      <url>http://54.87.140.8:8081/repository/maven-web-snapshot/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexusRepo</id>
+	      <id>nexusrepo</id>
 	      <name>AWS and DevOps Training</name>
-	      <url>http://192.168.1.6:8081/repository/web-snapshot/</url>
+	      <url>http://54.87.140.8:8081/repository/maven-web-released/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
